@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Spacing Layers - toggle visibility",
+      "identifier": "design-help.my-command-identifier-toggle",
+      "script": "./toggle-spacing-layers.js"
+    },
+    {
+      "name": "Spacing Layers - hide",
+      "identifier": "design-help.my-command-identifier-hide",
+      "script": "./hide-spacing-layers.js"
+    },
+    {
+      "name": "Spacing Layers - show",
+      "identifier": "design-help.my-command-identifier-show",
+      "script": "./show-spacing-layers.js"
+    },
+    {
+      "name": "Spacing Layers - info",
+      "identifier": "design-help.my-command-identifier-info",
+      "script": "./info.js"
+    }
+  ],
+  "menu": {
+    "title": "Design help",
+    "items": [
+      "design-help.my-command-identifier-toggle",
+      "design-help.my-command-identifier-hide",
+      "design-help.my-command-identifier-show",
+      "design-help.my-command-identifier-info"
+    ]
+  }
+}
