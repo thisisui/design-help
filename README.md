@@ -1,4 +1,4 @@
-# easy-plugin
+# design-help-plugin
 
 ## Installation
 
